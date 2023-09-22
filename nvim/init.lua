@@ -1,0 +1,12 @@
+require("archon.plugins-setup") --should be first here:
+require("archon.core.options")
+require("archon.core.keymaps")
+require("archon.core.colorscheme")
+require("archon.plugins.comment")
+require("archon.plugins.nvim-tree")
+require("archon.plugins.lualine")
+require("archon.plugins.telescope")
+require("archon.plugins.nvim-cmp")
+require("archon.plugins.lsp.mason")
+require("archon.plugins.lsp.lspsaga")
+require("archon.plugins.lsp.lspconfig")
